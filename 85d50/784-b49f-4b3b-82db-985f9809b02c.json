@@ -1,0 +1,113 @@
+{
+    "acquisition_software": "pychron 20.1",
+    "aliquot": 2,
+    "analysis_type": "unknown",
+    "analyst_name": "root",
+    "arar_mapping": {
+        "Ar36": "Ar36",
+        "Ar37": "Ar37",
+        "Ar38": "Ar38",
+        "Ar39": "Ar39",
+        "Ar40": "Ar40"
+    },
+    "collection_version": "1.0:2.1",
+    "comment": "",
+    "commit": "18bf0235b8dcdd2898a1856a4b754ca6957cda72",
+    "conditionals": null,
+    "data_reduction_software": "pychron 20.1",
+    "detectors": {
+        "AX": {
+            "deflection": 150.0,
+            "gain": 1.0
+        },
+        "CDD": {
+            "deflection": 160.0,
+            "gain": 0.0
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 1.0
+        },
+        "L1": {
+            "deflection": 330.0,
+            "gain": 1.0
+        },
+        "L2": {
+            "deflection": 600.0,
+            "gain": 1.0
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [],
+        "lab_pneumatics": [],
+        "lab_temperatures": []
+    },
+    "experiment_queue_name": "SH_ser_9step_3041",
+    "experiment_type": "Ar/Ar",
+    "extraction": "argus_CO2_sample.py",
+    "grainsize": "",
+    "hops": "",
+    "identifier": "3041",
+    "increment": 3,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "Can28",
+    "irradiation_level": "I",
+    "irradiation_position": 2,
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD",
+            "name": "Ar36",
+            "serial_id": "00000"
+        },
+        "Ar37": {
+            "detector": "L2",
+            "name": "Ar37",
+            "serial_id": "00000"
+        },
+        "Ar38": {
+            "detector": "L1",
+            "name": "Ar38",
+            "serial_id": "00000"
+        },
+        "Ar39": {
+            "detector": "AX",
+            "name": "Ar39",
+            "serial_id": "00000"
+        },
+        "Ar40": {
+            "detector": "H1",
+            "name": "Ar40",
+            "serial_id": "00000"
+        }
+    },
+    "laboratory": "",
+    "latitude": 0.0,
+    "lithology": "",
+    "lithology_class": "",
+    "lithology_group": "",
+    "lithology_type": "",
+    "longitude": 0.0,
+    "mass_spectrometer": "Argus",
+    "material": "Alunite",
+    "measurement": "argus_sample.py",
+    "post_equilibration": "argus_pump_sample_to_turbo.py",
+    "post_measurement": "argus_pump_ms.py",
+    "principal_investigator": "American, A",
+    "project": "Irradiation-Can28",
+    "queue_conditionals_name": "",
+    "repository_identifier": "Irradiation-Can28",
+    "rlocation": "",
+    "sample": "57417",
+    "source": {
+        "emission": 771.142,
+        "trap": 198.818
+    },
+    "spec_sha": "447808994691f8fddad9a7405b1a53a7c652c567",
+    "timestamp": "2023-03-15T00:48:53.203807",
+    "tripped_conditional": null,
+    "unit": "",
+    "username": "root",
+    "uuid": "85d50784-b49f-4b3b-82db-985f9809b02c",
+    "whiff_result": null
+}
